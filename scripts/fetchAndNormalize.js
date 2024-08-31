@@ -1,12 +1,16 @@
 // /scripts/fetchAndNormalize.js
 
-// fetch QB stats
+
+// QB
 // Running Backs
 // Wide Receivers
 // Tight Ends
 // Kickers
 // Defense/Special Teams
 
-// normalize the responses and combine
+// for each position, do the following
+// submit request and handle response
+// parse html to extract table. Retrieve all tables (site results are paginated).
+// transform to normalized model
 
-// save to csv
+// write csv
