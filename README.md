@@ -35,7 +35,16 @@ The fantasy football draft is tonight, and I haven't prepared. To make it more l
 - Filter any column
 
 ## Design
-- (mdn)[https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API]: Fetch - only needs to run once/rarely
-- (mdn)[https://developer.mozilla.org/en-US/docs/Web/API/DOMParser/parseFromString]: Parsing HTML using DOMParser
-- (w3schools)[https://www.w3schools.com/howto/howto_js_filter_table.asp]:  Filtering an HTML table
-- (w3schools)[https://www.w3schools.com/howto/howto_js_sort_table.asp]: Sorting an HTML table
+- Server
+  - Fetch data, normalize it, and write to CSV in Node.js
+  - Node.js doesn't include fetch and a parser by default, so will need two dependencies
+    - jsdom
+    - node-fetch
+  - (mdn)[https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API]: Fetch - only needs to run once/rarely
+  - (mdn)[https://developer.mozilla.org/en-US/docs/Web/API/DOMParser/parseFromString]: Parsing HTML using DOMParser
+- Client
+  - HTML: Very simple page which displays a large table.
+  - CSS: Optimization. Users are last-class citizens.
+  - JS: All updates to the table (no fetches)
+    - (w3schools)[https://www.w3schools.com/howto/howto_js_filter_table.asp]:  Filtering an HTML table
+    - (w3schools)[https://www.w3schools.com/howto/howto_js_sort_table.asp]: Sorting an HTML table
