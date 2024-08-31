@@ -13,7 +13,6 @@ The fantasy football draft is tonight, and I haven't prepared. To make it more l
   - Server code
 
 ## Requirements
-- Publish the app by 5 PM
 - Avoid frameworks and libraries where possilbe
 
 ## Data Source Analysis
