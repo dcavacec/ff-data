@@ -1,0 +1,19 @@
+{
+  "name": "fetch-normalize-save",
+  "version": "1.0.0",
+  "description": "Retrieve fantasy football stats for a season from FFToday, normalize the results, and write the combined set to CSV.",
+  "main": "fetchNormalizeSave.js",
+  "scripts": {
+    "start": "node fetchNormalizeSave.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "jsdom": "^21.1.0"
+  },
+  "type": "module",
+  "author": "David Cavaceci",
+  "license": "MIT"
+}
