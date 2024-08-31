@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Table Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Table Example</h1>
+    </header>
+
+    <main>
+        <input type="text" id="tableFilter" placeholder="Filter table..." onkeyup="filterTable()">
+        <div id="errorMessage" class="error-message"></div>
+        <table id="interactiveTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Name</th>
+                    <th onclick="sortTable(1)">Age</th>
+                    <th onclick="sortTable(2)">Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be populated here -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Interactive Table Example</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
